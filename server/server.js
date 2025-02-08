@@ -23,13 +23,13 @@ const io = new Server(httpServer, {
   },
 });
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5001;
 
 app.use(express.json());
 app.use(cors());
-
+const MONGODB_URI="mongodb+srv://Gaurav5327:Gaurav%402005@cluster0.prt6g.mongodb.net/EduSync?retryWrites=true&w=majority&appName=Cluster0"
 mongoose
-  .connect(process.env.MONGODB_URI, {
+  .connect(MONGODB_URI, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
