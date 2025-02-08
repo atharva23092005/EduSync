@@ -7,14 +7,18 @@ import { Server } from "socket.io";
 import authRoutes from "./routes/authRoutes.js";
 import scheduleRoutes from "./routes/scheduleRoutes.js";
 import userRoutes from "./routes/userRoutes.js";
-
+import path from "path";
+import { fileURLToPath } from "url";
+// Get `__dirname` equivalent in ES Module
+const __filename = fileURLToPath(import.meta.url);
+const __dirname1 = path.dirname(__filename);
 dotenv.config();
 
 const app = express();
 const httpServer = createServer(app);
 const io = new Server(httpServer, {
   cors: {
-    origin: "http://localhost:5173",
+    origin: "https://atharva23092005.github.io/EduSync, http://localhost:5173",
     methods: ["GET", "POST"],
   },
 });
@@ -35,8 +39,6 @@ mongoose
 app.use("/api/auth", authRoutes);
 app.use("/api/schedule", scheduleRoutes);
 app.use("/api/users", userRoutes);
-
-const __dirname1 = path
 
 io.on("connection", (socket) => {
   console.log("A user connected");

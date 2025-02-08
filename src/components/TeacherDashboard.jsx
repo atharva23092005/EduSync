@@ -78,7 +78,7 @@ function TeacherDashboard({ user, onLogout }) {
     <div
       className="min-h-screen w-full"
       style={{
-        backgroundImage: "url('/background.jpg')",
+        backgroundImage: "url('/EduSync/background.jpg')",
         backgroundSize: "cover",
       }}
     >

@@ -32,7 +32,7 @@ function StudentDashboard({ user, onLogout }) {
 
   return (
     <div className="min-h-screen"
-    style={{backgroundImage:"url('/background.jpg')",backgroundSize:"cover"}}
+    style={{backgroundImage:"url('/EduSync/background.jpg')",backgroundSize:"cover"}}
     >
     <div className="container mx-auto px-4 py-8">
       <div className="flex justify-between items-center mb-8">

@@ -7,7 +7,7 @@ const Home = () => {
       <main
         className="flex-grow flex items-center justify-center bg-cover bg-center"
         style={{
-          backgroundImage: "url('/background.jpg')",
+          backgroundImage: "url('/EduSync/background.jpg')",
         }}
       >
         <div className="text-center bg-white bg-opacity-75 p-12 rounded-lg shadow-xl">

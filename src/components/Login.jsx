@@ -24,7 +24,7 @@ function Login({ onLogin }) {
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-indigo-500 to-purple-600 py-12 px-4 sm:px-6 lg:px-8"
-    style={{backgroundImage:"url('/background.jpg')",backgroundSize:"cover"}}
+    style={{backgroundImage:"url('/EduSync/background.jpg')",backgroundSize:"cover"}}
     >
       <div className="max-w-md w-full space-y-8 bg-white p-10 rounded-xl shadow-2xl">
         <div>

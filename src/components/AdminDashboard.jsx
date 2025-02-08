@@ -114,7 +114,7 @@ function AdminDashboard({ user, onLogout }) {
   return (
     <div
       className="min-h-screen w-full"
-      style={{ backgroundImage: "url('/background.jpg')" }}
+      style={{ backgroundImage: "url('/EduSync/background.jpg')" }}
     >
       <nav className="bg-indigo-600 shadow-lg w-full">
         <div className="w-full px-4 sm:px-6">
