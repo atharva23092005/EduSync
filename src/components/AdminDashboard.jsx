@@ -6,7 +6,7 @@ import ScheduleDisplay from "./ScheduleDisplay";
 import Registration from "./Registration";
 import { Link } from "react-router-dom";
 
-const API_URL = "http://localhost:3000/api/schedule";
+const API_URL = "https://edusync-0iri.onrender.com/api/schedule";
 
 function AdminDashboard({ user, onLogout }) {
   const [courses, setCourses] = useState([]);

@@ -3,7 +3,7 @@ import axios from "axios";
 import AvailabilityForm from "./AvailabilityForm";
 import ScheduleDisplay from "./ScheduleDisplay";
 
-const API_URL = "http://localhost:3000/api/schedule";
+const API_URL = "https://edusync-0iri.onrender.com/api/schedule";
 
 function StudentDashboard({ user, onLogout }) {
   const [schedule, setSchedule] = useState(null);

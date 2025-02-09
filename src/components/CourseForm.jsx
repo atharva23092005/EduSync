@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 
-const API_URL = "http://localhost:3000/api/schedule";
+const API_URL = "https://edusync-0iri.onrender.com/api/schedule";
 
 function CourseForm({ addCourse }) {
   const [formData, setFormData] = useState({

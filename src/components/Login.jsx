@@ -2,7 +2,7 @@ import { useState } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
 
-const API_URL = "http://localhost:3000/api";
+const API_URL = "https://edusync-0iri.onrender.com/api";
 
 function Login({ onLogin }) {
   const [username, setUsername] = useState("");

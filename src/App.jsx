@@ -16,7 +16,7 @@ import TeacherDashboard from "./components/TeacherDashboard";
 import StudentDashboard from "./components/StudentDashboard";
 import ConflictResolution from "./components/ConflictResolution";
 
-const API_URL = "http://localhost:3000/api";
+const API_URL = "https://edusync-0iri.onrender.com/api";
 
 function App() {
   const [user, setUser] = useState(null);

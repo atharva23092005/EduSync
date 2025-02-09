@@ -1,7 +1,7 @@
 import { useState } from "react";
 import axios from "axios";
 
-const API_URL = "http://localhost:3000/api/auth";
+const API_URL = "https://edusync-0iri.onrender.com/api/auth";
 
 function Registration({
   onClose,

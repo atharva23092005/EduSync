@@ -5,8 +5,8 @@ import AvailabilityForm from "./AvailabilityForm";
 import PreferencesForm from "./PreferencesForm";
 import ScheduleDisplay from "./ScheduleDisplay";
 
-const API_URL = "http://localhost:3000/api";
-const SOCKET_URL = "http://localhost:3000";
+const API_URL = "https://edusync-0iri.onrender.com/api";
+const SOCKET_URL = "https://edusync-0iri.onrender.com";
 
 function TeacherDashboard({ user, onLogout }) {
   const [schedule, setSchedule] = useState(null);
